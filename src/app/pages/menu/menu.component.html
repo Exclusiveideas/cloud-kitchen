@@ -10,7 +10,7 @@
                 <p>{{ fd.foodDetails }}</p>
                 <p>{{ fd.foodPrice | currency: 'INR' }}</p>
                 <br />
-                <a class="buybtn">BUY NOW &nbsp;<i class="bi bi-bag"></i></a>
+                <a class="buybtn" [routerLink]="['/menu',fd.id]">BUY NOW &nbsp;<i class="bi bi-bag"></i></a>
             </div>
         </div>
     </div>
