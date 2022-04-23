@@ -1,0 +1,18 @@
+<div class="container">
+
+    <div class="row">
+
+        <div class="col-lg-4" *ngFor="let fd of foodData" >
+
+            <div class="food">
+                <img src="{{ fd.foodImg }}" alt="">
+                <h1>{{ fd.foodName }}</h1>
+                <p>{{ fd.foodDetails }}</p>
+                <p>{{ fd.foodPrice | currency: 'INR' }}</p>
+                <a>BUY</a>
+            </div>
+        </div>
+    </div>
+
+
+</div>
