@@ -1,7 +1,7 @@
 # CloudKitchen
 A simple restaurant application built in angular.
 
-# STACK
+## STACK
 [![SASS](https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white)](https://github.com/Exclusiveideas)
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)](https://github.com/Exclusiveideas)
 [![JavaScript](https://img.shields.io/badge/JavaScript-323330?style=for-the-badge&logo=javascript&logoColor=F7DF1E)](https://github.com/Exclusiveideas)
